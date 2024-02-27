@@ -41,13 +41,23 @@
         </div>
       </nav>
 
+<!-- intestazione -->
+      <div class="container">
+        <div class="row">
+          <div class="col-9 ">
+            <h1 class="d-inline-block">Catalogo Libri</h1>
+                  <button class="btn btn-primary">Aggiungi Libro</button>
+
+          </div>
+        </div>
+      </div>
+
       <!-- INIZIO CONTENUTO CON TABELLA -->
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row ">
           
-            <div class="col-9 mt-4 px-5">
-              <h1 class="d-inline-block">Catalogo Libri</h1>
-              <button class="btn btn-primary">Aggiungi Libro</button>
+            <div class="col-9 mt-4 px-5 bg-secondary">
+              
 
               <table class="table table-striped p-2 ">
                 <thead>
@@ -91,12 +101,27 @@
             </div>
 
           <!-- SIDEBAR -->
-            <div class="col mt-4">
+            <div class="col-3 mt-4 bg-secondary">
               <div class="card " style="width: 18rem;">
                 <div class="card-body">
                   <h5 class="card-title">To Do</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Chiamare segreteria
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Mandare avvisi prestiti scaduti
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Ordinare nuovi libri
+                    </label>
+                  </div>
+                  
+                
                 </div>
               </div>
 
