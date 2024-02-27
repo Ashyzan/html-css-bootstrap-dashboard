@@ -45,11 +45,11 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
           
-            <div class="col-8 mt-4">
+            <div class="col-7 mt-4">
               <h1 class="d-inline-flex justify-content-start">Catalogo Libri</h1>
-              <button class="btn btn-primary d-flex justify-content-end">Aggiungi Libro</button>
+              <button class="btn btn-primary d-inline-flex justify-content-end">Aggiungi Libro</button>
 
-              <table class="table table-striped p-2">
+              <table class="table table-striped p-2 ">
                 <thead>
                     <tr class="table-light "></tr>
                         <th>
@@ -61,20 +61,27 @@
                         <th>
                             Stato
                         </th>
-                        <th>
+                        <th class="text-center">
                             Azioni
                         </th>
 
                 </thead>
                 <tbody>
                     
-                        <tr>
+                        <tr class="">
                     
-                            <td class="table-light">I Pilastri della Terra</td>
-                            <td class="table-light">-</td>
-                            <td class="table-light"><span>Disponibile</span></td>
-                            <td class="table-light"><i class="bi bi-pencil-fill btn btn-outline-secondary gap-3"></i><i class="bi bi-trash btn btn-outline-secondary"></i></td>
+                            <td class="table-light lh-lg ">I Pilastri della Terra</td>
+                            <td class="table-light lh-lg">-</td>
+                            <td class="table-light lh-lg"><span class="badge text-bg-success">Disponibile</span></td>
+                            <td class="table-light text-center lh-lg"><i class="bi bi-pencil-fill btn btn-outline-secondary mx-2"></i><i class="bi bi-trash btn btn-outline-secondary"></i></td>
                         
+                        </tr>
+
+                        <tr>
+                          <td class="table-light lh-lg">I Promessi Sposi</td>
+                          <td class="table-light lh-lg">-</td>
+                          <td class="table-light lh-lg"><span class="badge text-bg-success">Disponibile</span></td>
+                          <td class="table-light text-center lh-lg"><i class="bi bi-pencil-fill btn btn-outline-secondary mx-2"></i><i class="bi bi-trash btn btn-outline-secondary"></i></td>
                         </tr>
                     
                     
@@ -83,7 +90,7 @@
               </table>
 
           <!-- SIDEBAR -->
-            <div class="col-4 sidebar">
+            <div class="col-3 mt-4">
                 column
 
             </div>
